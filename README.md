@@ -144,7 +144,7 @@ wklua.http = function(value) print("HTTP Error Code", value) end
 -- PDF file
 wklua:pdf("http://luajit.org", "luajit.pdf") 
 
--- Image
+-- Image or SVG
 wklua:image("http://luajit.org", "luajit.jpg")
 
 ```
