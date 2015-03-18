@@ -147,6 +147,8 @@ wklua:pdf("http://luajit.org", "luajit.pdf")
 -- Image or SVG
 wklua:image("http://luajit.org", "luajit.jpg")
 
+wklua = nil
+
 ```
 
 ## License
