@@ -132,8 +132,6 @@ wklua.settings = {
   smartWidth = "", -- Should we expand the screenWidth if the content does not fit? must be either "true" or "false".
   quality = "" -- The compression factor to use when outputting a JPEG image. E.g. "94". 
 
-  -- note: Check [this page](http://wkhtmltopdf.org/libwkhtmltox/pagesettings.html) for updated settings.
-
 }
 
 -- Default callbacks
@@ -152,6 +150,8 @@ wklua:image("http://luajit.org", "luajit.jpg")
 wklua = nil
 
 ```
+
+note: Check [this page](http://wkhtmltopdf.org/libwkhtmltox/pagesettings.html) for updated settings.
 
 ## License
 ```
