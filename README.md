@@ -2,7 +2,7 @@
 wkhtmltopdf ffi wrapper for LuaJIT. Save any website to a PDF, image, or SVG file.
 
 ## Requirements
-* LuaJIT
+* LuaJIT 2.0.0+
 
 ## Installation
 * Download this repository
