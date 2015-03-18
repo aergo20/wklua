@@ -6,7 +6,7 @@ wkhtmltopdf ffi wrapper for LuaJIT. Save any website to a PDF, image, or SVG fil
 
 ## Installation
 * Download this repository
-* [Download the wkhtmltopdf binary](http://wkhtmltopdf.org/downloads.html) and put in the same folder
+* [Download](http://wkhtmltopdf.org/downloads.html) the wkhtmltopdf binary and put in the same folder
 
 ## Usage
 ```lua
@@ -131,6 +131,8 @@ wklua.settings = {
   screenWidth = "", -- The with of the screen used to render is pixels, e.g "800".
   smartWidth = "", -- Should we expand the screenWidth if the content does not fit? must be either "true" or "false".
   quality = "" -- The compression factor to use when outputting a JPEG image. E.g. "94". 
+
+  -- note: Check [this page](http://wkhtmltopdf.org/libwkhtmltox/pagesettings.html) for updated settings.
 
 }
 
