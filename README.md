@@ -5,8 +5,8 @@ wkhtmltopdf ffi wrapper for LuaJIT. Save any website to a PDF, image, or SVG fil
 * LuaJIT 2.0.0+
 
 ## Installation
-* Download this repository
-* [Download](http://wkhtmltopdf.org/downloads.html) the wkhtmltopdf library and put in the same folder
+* Download this repository.
+* [Download](http://wkhtmltopdf.org/downloads.html) the wkhtmltopdf library and put in the same folder.
 
 ## Usage
 ```lua
