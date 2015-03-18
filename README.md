@@ -151,7 +151,7 @@ wklua = nil
 
 ```
 
-note: Check [this page](http://wkhtmltopdf.org/libwkhtmltox/pagesettings.html) for updated settings.
+*note:* Check [this page](http://wkhtmltopdf.org/libwkhtmltox/pagesettings.html) for updated settings.
 
 ## License
 ```
