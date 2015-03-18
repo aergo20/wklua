@@ -1,6 +1,5 @@
 # wklua
-* Take screenshots of websites
-* Save any website to a PDF file
+wkhtmltopdf ffi wrapper for LuaJIT. Save any website to a PDF, image, or svg file.
 
 ## Requirements
 * LuaJIT
@@ -12,8 +11,9 @@
 ## Usage
 ```lua
 
-local wklua = require("wklua").create(true)
+local wklua = require("wklua").create(true) -- Use true to enable default callbacks
 
+-- Optional settings
 wklua.settings = {
 
   -- Web page specific settings
@@ -134,11 +134,18 @@ wklua.settings = {
 
 }
 
--- generate a PDF file
-wklua:pdf("from", "to") 
+-- Default callbacks
+wklua.progress = function(integer, percent) print(percent) end
+wklua.phase = function(value) print(value) end
+wklua.error = function(value) print("Error", value) end
+wklua.warning = function(value) print("Warning", value) end
+wklua.http = function(value) print("HTTP Error Code", value) end
 
--- generate an image
-wklua:image("from", "to")
+-- PDF file
+wklua:pdf("http://luajit.org", "luajit.pdf") 
+
+-- Image
+wklua:image("http://luajit.org", "luajit.jpg")
 
 ```
 
