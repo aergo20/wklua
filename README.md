@@ -116,7 +116,7 @@ wklua.settings = {
   pagesCount = "", -- Should we count the pages of this document, in the counter used for TOC, headers and footers?
   tocXsl = "", -- If not empty this object is a table of content object, "page" is ignored and this xsl style sheet is used to convert the outline XML into a table of content.
 
-  --Image settings
+  -- Image settings
 
   crop = {
     left = "", -- left/x coordinate of the window to capture in pixels. E.g. "200"
