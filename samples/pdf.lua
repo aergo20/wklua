@@ -7,7 +7,7 @@ wklua.settings = {
   load = {
     cookieJar = "myjar.jar"
   },
-  page = "http://luajit.org/" -- or file://path/to/local/file
+  page = "http://luajit.org/" -- or C:/path/to/local/file
 }
 
 wklua:pdf()
