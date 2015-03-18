@@ -5,7 +5,7 @@ wkhtmltopdf ffi wrapper for LuaJIT
 * LuaJIT
 
 ## Installation
-* [Download this repository](https://github.com/evandro92/wklua/archive/master.zip)
+* Download this repository
 * [Download the wkhtmltopdf binary](http://wkhtmltopdf.org/downloads.html) and put in the same folder
 
 ## Usage
@@ -139,4 +139,3 @@ wklua:pdf("from", "to")
 wklua:image("from", "to")
 
 ```
-## Settings
