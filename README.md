@@ -1,5 +1,5 @@
 # wklua
-wkhtmltopdf ffi wrapper for LuaJIT. Save any website to a PDF, image, or svg file.
+wkhtmltopdf ffi wrapper for LuaJIT. Save any website to a PDF, image, or SVG file.
 
 ## Requirements
 * LuaJIT
